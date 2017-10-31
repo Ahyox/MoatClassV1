@@ -1,0 +1,53 @@
+.parent {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #000;
+}
+
+.facebook-left {
+	width: 25%;
+	color: #fff;
+	font-weight: 800;
+	margin-left: 5%;
+	font-size: 30px;
+	float: left;
+}
+
+.facebook-right {
+	width: 60%;
+	margin-left: 10%;
+	float: left;
+}
+
+.facebook-input-one {
+	color: #fff;
+	width: 40%;
+	float: left;
+}
+
+.facebook-button {
+	width: 15%;
+	color: #fff;
+	float: left;
+}
+
+.facebook-input-two {
+	color: #fff;
+	width: 40%;
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.facebook-button button {
+	background: rgba(0, 255, 0, 1);
+	border-color: rgba(0, 255, 0, 1);
+	border: none;
+	color: #fff;
+}
+
+
+.clear {
+	clear: both;
+}

@@ -1,0 +1,57 @@
+/** This is my first external css file **/
+@font-face {
+	font-family: 'verdana';
+	src: url('fonts/verdana.ttf');
+	font-weight: 100;
+
+}
+
+body {
+	background: url('background.jpg') repeat;
+	--webkit-background: url('background.jpg') repeat;
+	background-color: #000;
+	color: #fff;
+	height: auto;
+	font-family: 'Indie Flower', cursive !important;
+}
+
+
+#container {
+	width: 40%;
+	height: 30%;
+
+	/** This fits the width at the center **/
+	margin-left: 30%;
+	margin-right: 30%;
+	/** This fits the height at the center **/
+	margin-top: 100px;
+}
+
+input[type="text"] {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	font-family: 'Indie Flower', cursive !important;
+}
+
+input[type="password"] {
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 10px;
+	font-family: 'Indie Flower', cursive !important;
+}
+
+button {
+	margin-top: 10px;
+	background-color: #0000FF;
+	border-color: #0000ff;
+	color: white;
+	float: right;
+	font-family: 'Indie Flower', cursive !important;
+}
+
+.font {
+	font-family: 'Lobster', cursive;
+	font-weight: 100;
+}
